@@ -15,7 +15,7 @@ $('#info_span').html('' + window.location.href + '. dpi: ' + dpi_x + ' by ' + dp
 
 var a1 =  decodeURIComponent($.urlParam('a1')); //'" & Activities::Period One & "';
 
-$('#activity_span').innerHTML = a1;
+$('#activity_span').innerHTML = 'a1: ' + a1;
 
 var qrcode = new QRCode('qrcode', {width: 96, height: 96, text: a1});
 

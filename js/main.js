@@ -32,7 +32,7 @@ $.urlParam = function(name){
 dpi_x = $('#dpidiv').first().outerWidth();
 dpi_y = $('#dpidiv').first().outerHeight();
 
-$('#info_span').html('' + window.location.href + '<br>dpi: ' + dpi_x + ' by ' + dpi_y + '<br>version:10:16AM');
+$('#info_span').html('' + window.location.href + '<br>dpi: ' + dpi_x + ' by ' + dpi_y + '<br>version:10:16AM<br>');
 
 var a1 =  decodeURIComponent($.urlParam('a1')); //'" & Activities::Period One & "';
 

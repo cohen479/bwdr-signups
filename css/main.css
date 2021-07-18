@@ -10,8 +10,20 @@
     margin-top:15px;
 }
 
-#qr1, #qr2, #qr3, #qr4 {
+.qr {
     margin-top:15px;
+}
+
+/* #qr1, #qr2, #qr3, #qr4 {
+    margin-top:15px;
+} */
+
+table {
+    border-collapse: collapse;   
+}
+
+th, tr {
+    border-bottom: 1px solid black;   
 }
 
 #dpidiv {

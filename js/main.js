@@ -46,9 +46,9 @@ $('#a3_span').html('Period 3: ' + a3);
 $('#a4_span').html('Period 4: ' + a4);
 
 if (a1) { var qr1 = new QRCode('qr1', {width: 96, height: 96, text: a1}); } else { $('#qr1').html('Period 1'); }
-if (a1) { var qr2 = new QRCode('qr2', {width: 96, height: 96, text: a1}); } else { $('#qr2').html('Period 2'); }
-if (a1) { var qr3 = new QRCode('qr3', {width: 96, height: 96, text: a1}); } else { $('#qr3').html('Period 3'); }
-if (a1) { var qr4 = new QRCode('qr4', {width: 96, height: 96, text: a1}); } else { $('#qr4').html('Period 4'); }
+if (a2) { var qr2 = new QRCode('qr2', {width: 96, height: 96, text: a2}); } else { $('#qr2').html('Period 2'); }
+if (a3) { var qr3 = new QRCode('qr3', {width: 96, height: 96, text: a3}); } else { $('#qr3').html('Period 3'); }
+if (a4) { var qr4 = new QRCode('qr4', {width: 96, height: 96, text: a4}); } else { $('#qr4').html('Period 4'); }
 
 // var qr = new QRious({
 //         element: $('#qr')[0], //$('#qr').first()

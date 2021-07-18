@@ -10,6 +10,10 @@
     margin-top:15px;
 }
 
+#qr1, #qr2, #qr3, #qr4 {
+    margin-top:15px;
+}
+
 #dpidiv {
     height: 1in; 
     left: -100%; 

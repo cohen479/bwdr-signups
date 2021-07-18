@@ -41,7 +41,7 @@ $('#activity_span').html('a1: ' + a1);
 var qrcode = new QRCode('qrcode', {width: 96, height: 96, text: a1});
 
 var qr = new QRious({
-        element: $('#qr').first(),
+        element: $('#qr')[0], //$('#qr').first()
         size: 96, 
         value: a1
     });

@@ -42,25 +42,25 @@ var a4 =  decodeURIComponent($.urlParam('a4')); //'" & Activities::Period Four &
 
 if (a1 && a1 !== 'No Activity') { 
     var qr1 = new QRCode('qr1', {width: 70, height: 70, text: a1}); 
-    $('#a1_span').html('Period 1: ' + a1);
+    $('#a1_span').html('Period 1:<br>' + a1);
 } else { 
     $('#a1_span').html('Sign up for Period 1 here!'); 
 }
 if (a2 && a2 !== 'No Activity') { 
     var qr2 = new QRCode('qr2', {width: 60, height: 60, text: a2}); 
-    $('#a2_span').html('Period 2: ' + a2);
+    $('#a2_span').html('Period 2:<br>' + a2);
 } else { 
     $('#a2_span').html('Sign up for Period 2 here!'); 
 }
 if (a3 && a3 !== 'No Activity') { 
     var qr3 = new QRCode('qr3', {width: 50, height: 50, text: a3}); 
-    $('#a3_span').html('Period 3: ' + a3);
+    $('#a3_span').html('Period 3:<br>' + a3);
 } else { 
     $('#a3_span').html('Sign up for Period 3 here!'); 
 }
 if (a4 && a4 !== 'No Activity') { 
     var qr4 = new QRCode('qr4', {width: 40, height: 40, text: a4}); 
-    $('#a4_span').html('Period 4: ' + a4);
+    $('#a4_span').html('Period 4:<br>' + a4);
 } else { 
     $('#a4_span').html('Sign up for Period 4 here!');  
 }

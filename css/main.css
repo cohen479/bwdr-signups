@@ -38,10 +38,10 @@ td {
     font-size: 6pt;   
 }
 
-.activity_span {
+/* .activity_span {
     display: inline-block;
     float: right;
-}
+} */
 
 #dpidiv {
     height: 1in; 

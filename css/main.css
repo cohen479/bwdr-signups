@@ -33,6 +33,10 @@ td {
     padding-right: 5pt;
 }
 
+#info_span {
+    font-size: 6pt;   
+}
+
 #dpidiv {
     height: 1in; 
     left: -100%; 

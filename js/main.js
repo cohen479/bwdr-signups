@@ -35,13 +35,23 @@ dpi_y = $('#dpidiv').first().outerHeight();
 $('#info_span').html('' + window.location.href + '<br>dpi: ' + dpi_x + ' by ' + dpi_y + '<br>version:10:23AM<br>');
 
 var a1 =  decodeURIComponent($.urlParam('a1')); //'" & Activities::Period One & "';
+var a2 =  decodeURIComponent($.urlParam('a2')); //'" & Activities::Period Two & "';
+var a3 =  decodeURIComponent($.urlParam('a3')); //'" & Activities::Period Three & "';
+var a4 =  decodeURIComponent($.urlParam('a4')); //'" & Activities::Period Four & "';
 
-$('#activity_span').html('a1: ' + a1);
 
-var qrcode = new QRCode('qrcode', {width: 96, height: 96, text: a1});
+$('#a1_span').html('Period 1: ' + a1);
+$('#a2_span').html('Period 2: ' + a2);
+$('#a3_span').html('Period 3: ' + a3);
+$('#a4_span').html('Period 4: ' + a4);
 
-var qr = new QRious({
-        element: $('#qr')[0], //$('#qr').first()
-        size: 96, 
-        value: a1
-    });
+var qr1 = new QRCode('qr1', {width: 96, height: 96, text: a1});
+var qr2 = new QRCode('qr2', {width: 96, height: 96, text: a1});
+var qr3 = new QRCode('qr3', {width: 96, height: 96, text: a1});
+var qr4 = new QRCode('qr4', {width: 96, height: 96, text: a1});
+
+// var qr = new QRious({
+//         element: $('#qr')[0], //$('#qr').first()
+//         size: 96, 
+//         value: a1
+//     });

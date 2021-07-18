@@ -26,6 +26,13 @@ th, tr {
     border-bottom: 1px solid black;   
 }
 
+td {
+    margin-left: 5pt;
+    margin-right: 5pt;
+    padding-left: 5pt;
+    padding-right: 5pt;
+}
+
 #dpidiv {
     height: 1in; 
     left: -100%; 

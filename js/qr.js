@@ -17,6 +17,8 @@ if (a1 && a1 !== 'No Activity' && a1 !== null) {
     var qr1 = new QRCode('qr1', {width: 70, height: 70, text: a1}); 
 } 
 
+document.body.style.overflow = 'hidden';
+
 // var qr = new QRious({
 //         element: $('#qr')[0], //$('#qr').first()
 //         size: 96, 

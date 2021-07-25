@@ -12,9 +12,11 @@ dpi_x = $('#dpidiv').first().outerWidth();
 dpi_y = $('#dpidiv').first().outerHeight();
 
 var a1 =  decodeURIComponent($.urlParam('contents')); //'" & Activities::Period One & "';
+var size =  decodeURIComponent($.urlParam('size')); //'" & Activities::Period One & "';
+var qr_size = size ? size : 70;
 
 if (a1 && a1 !== 'No Activity' && a1 !== null) { 
-    var qr1 = new QRCode('qr1', {width: 70, height: 70, text: a1}); 
+    var qr1 = new QRCode('qr1', {width: qr_size, height: qr_size, text: a1}); 
 } 
 
 document.body.style.overflow = 'hidden';

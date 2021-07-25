@@ -13,7 +13,7 @@ dpi_y = $('#dpidiv').first().outerHeight();
 
 var a1 =  decodeURIComponent($.urlParam('contents')); //'" & Activities::Period One & "';
 
-if (a1 && a1 !== 'No Activity') { 
+if (a1 && a1 !== 'No Activity' && a1 !== null) { 
     var qr1 = new QRCode('qr1', {width: 70, height: 70, text: a1}); 
 } 
 
